@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploBDD.WebApp", "ExemploBDD.WebApp\ExemploBDD.WebApp.csproj", "{01D54812-BED6-412C-A912-61EA15FAC213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploBdd.Testes.Funcionais", "ExemploBdd.Testes.Funcionais\ExemploBdd.Testes.Funcionais.csproj", "{A9EB9DBB-2F88-4645-B56F-51D9B2DA9FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploBdd.Testes.Unidade", "ExemploBdd.Testes.Unidade\ExemploBdd.Testes.Unidade.csproj", "{0177A7C9-23EB-41C9-8513-53E0E4AA248F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F85A67F1-7AE0-44B2-BFD8-BAA689A01EBF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01D54812-BED6-412C-A912-61EA15FAC213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D54812-BED6-412C-A912-61EA15FAC213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D54812-BED6-412C-A912-61EA15FAC213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D54812-BED6-412C-A912-61EA15FAC213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EB9DBB-2F88-4645-B56F-51D9B2DA9FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EB9DBB-2F88-4645-B56F-51D9B2DA9FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EB9DBB-2F88-4645-B56F-51D9B2DA9FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EB9DBB-2F88-4645-B56F-51D9B2DA9FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0177A7C9-23EB-41C9-8513-53E0E4AA248F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0177A7C9-23EB-41C9-8513-53E0E4AA248F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0177A7C9-23EB-41C9-8513-53E0E4AA248F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0177A7C9-23EB-41C9-8513-53E0E4AA248F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
