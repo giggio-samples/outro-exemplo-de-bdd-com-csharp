@@ -36,7 +36,7 @@ namespace ExemploBdd.Testes.Funcionais
         private static string CriarApphost()
         {
             var caminho = IsTfsBuild() ? @"_PublishedWebSites\ExemploBDD.WebApp" : "..\\..\\..\\ExemploBDD.WebApp";
-            var caminhoBinarios = Path.GetDirectoryName((new Uri(Assembly.GetExecutingAssembly().CodeBase)).AbsolutePath);
+            var caminhoBinarios = Path.GetDirectoryName(Uri.UnescapeDataString(new Uri(Assembly.GetExecutingAssembly().CodeBase).AbsolutePath));
             var caminhoSite = Path.GetFullPath(Path.Combine(caminhoBinarios, caminho));
             var applicationhost = File.ReadAllText(Path.Combine(caminhoBinarios, "applicationhost.config"));
             var appconfigProcessado = applicationhost.Replace("{path to website}", caminhoSite);
